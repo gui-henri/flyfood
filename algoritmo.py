@@ -48,5 +48,6 @@ for p in permutacoes(pontos_de_entrega):
         dist_min = perm_tot_dist
         rot_min = p
 
+print(dist_min)
 for i in rot_min:
     print(i[2], end=" ")
